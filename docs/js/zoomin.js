@@ -10,6 +10,6 @@ zoomin.addEventListener("click",function(e){
 zoomout.addEventListener("click",function(){
     
     ctx.scale(0.95,0.95);
-    ctx.translate(30,20)
+    ctx.translate(50,0)
     redraw();
 })
